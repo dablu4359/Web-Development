@@ -1,0 +1,65 @@
+body {
+			background-color:lightblue;	
+}
+		h1 { 
+			font-family:"Brush Script MT", cursive;
+			text-color: black;
+}
+		h2 { 
+			text-color: black;
+			font-family:"Arial", sans-serif;
+}
+		h3 { 
+			color: red;
+}
+		h4 { 
+			font-family:"Arial", sans-serif;
+			color: white;
+}
+		.container {
+			width: 500px;
+    			display: flex;
+    			flex-flow: row nowrap;
+			
+}
+		.yellow {
+			position: relative;
+			text-color: red;
+			background-color: yellow;
+			width: 10%;
+			height: 200px;
+			border: solid black;
+			align-items: center;
+}
+		.grey {
+			position: relative;
+			text-color: red;
+			background-color: grey;
+			width: 10%;
+			height: 200px;
+			border:solid black;
+			align-items: center;
+}
+		input[type=text]{
+    			width:300px;
+			height:50;
+   			border:2px solid black;
+    			border-radius:4px;
+    			margin:8px 0;
+    			padding:8px;
+    			box-sizing:border-box;
+}
+  
+  		input[type=text]:focus{
+			font-size:20px;
+    			border-color:dodgerBlue;
+    			box-shadow:0 0 8px 0 dodgerBlue;
+}
+		button {
+			width: 100px;
+			height: 50px;
+			background-color: blue;
+			border-radius:50%;
+			border:2px solid red;
+			cursor: pointer;
+}
