@@ -1,0 +1,33 @@
+body {
+			background-color: white;
+			font-family: "Arial", sans-serif;
+}
+		h2 { 
+			color: grey;
+}
+		h1 { 
+			color: black;
+			text-decoration: underline;
+			text-decoration-color: lightgrey;
+			text-underline-offset: 10px;
+}
+		hr {
+			width: 60%;  
+			height: 3px;  
+			background-color: lightgrey; 
+}
+		.block {
+			position: relative;
+			display: inline-block;
+			background-color: lightgrey;
+			width:600px;
+			height:150px;
+
+}
+		.block img {
+			position: absolute;
+			width: 130px;
+			height: 130px;
+			top: 10px;
+			left: 10px;
+}
